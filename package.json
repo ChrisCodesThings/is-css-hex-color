@@ -1,15 +1,17 @@
 {
-  "name": "@chriscodesthings/stub-repo",
+  "name": "@chriscodesthings/is-css-hex-color",
   "version": "1.0.0",
-  "description": "npm package template",
+  "description": "Determine if a string is a CSS hex color code",
   "keywords": [
-    "stub",
-    "package",
-    "template"
+    "string",
+    "css",
+    "hex",
+    "color",
+    "code"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisCodesThings/stub-repo.git"
+    "url": "git+https://github.com/ChrisCodesThings/is-css-hex-color.git"
   },
   "main": "index.js",
   "type": "module",
@@ -21,7 +23,7 @@
     "node": ">=18.0.0"
   },
   "bugs": {
-    "url": "https://github.com/ChrisCodesThings/stub-repo/issues"
+    "url": "https://github.com/ChrisCodesThings/is-css-hex-color/issues"
   },
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
