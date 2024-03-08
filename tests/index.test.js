@@ -35,6 +35,6 @@ describe("check if something is a css hex color code", () => {
     });
 
     test("longhand with alpha", async () => {
-        expect(testFunc("#123456ff")).toEqual(true);
+        expect(testFunc("#12345678")).toEqual(true);
     });
 });
