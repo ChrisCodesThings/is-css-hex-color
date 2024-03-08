@@ -16,3 +16,32 @@ import isCSSHexColor from '@chriscodesthings/is-css-hex-color';
 console.log(isCSSHexColor("#123abcff"));
 // => true
 ```
+
+## Syntax
+
+```js
+isCSSHexColor( str);
+```
+
+### Parameters
+
+- *str*: text string to test
+
+### Return Value
+
+Returns boolean true if str is a valid CSS hex color code, false otherwise.
+
+## Description
+
+Valid CSS hex colors must:
+- begin with a # character
+- contain 3 hex numbers from 0 to ff
+- may also contain a 4th hex number representing an alpha channel
+
+> Shorthand form is also valid
+
+The following are examples of valid CSS hex colour codes:
+```
+#6699ff   // Cornflower blue
+#6699ff88 // ... with 50% transparency
+#69f8     // ... in shorthand
