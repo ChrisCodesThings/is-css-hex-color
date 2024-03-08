@@ -37,11 +37,11 @@ Valid CSS hex colors must:
 - begin with a # character
 - contain 3 hex numbers from 0 to ff
 - may also contain a 4th hex number representing an alpha channel
-
-> Shorthand form is also valid
+- be in long (#123456) or short (#123) form
 
 The following are examples of valid CSS hex colour codes:
 ```
 #6699ff   // Cornflower blue
 #6699ff88 // ... with 50% transparency
 #69f8     // ... in shorthand
+```
