@@ -20,7 +20,7 @@ console.log(isCSSHexColor("#123abcff"));
 ## Syntax
 
 ```js
-isCSSHexColor( str);
+isCSSHexColor(str);
 ```
 
 ### Parameters
