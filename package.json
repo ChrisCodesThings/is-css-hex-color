@@ -1,6 +1,6 @@
 {
   "name": "@chriscodesthings/is-css-hex-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine if a string is a CSS hex color code",
   "keywords": [
     "string",
