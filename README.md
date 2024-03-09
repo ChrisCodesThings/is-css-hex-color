@@ -33,6 +33,8 @@ Returns boolean true if str is a valid CSS hex color code, false otherwise.
 
 ## Description
 
+Checks if a string is a valid CSS hex color code.
+
 Valid CSS hex colors must:
 - begin with a # character
 - contain 3 hex numbers from 0 to ff
