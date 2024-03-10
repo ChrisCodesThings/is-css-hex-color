@@ -22,19 +22,19 @@ describe("check if something is a css hex color code", () => {
         expect(testFunc("#abcde")).toEqual(false);
     });
 
-    test("shorthand", async () => {
+    test("short form", async () => {
         expect(testFunc("#abc")).toEqual(true);
     });
 
-    test("shorthand with alpha", async () => {
+    test("short form with alpha", async () => {
         expect(testFunc("#abcd")).toEqual(true);
     });
 
-    test("longhand", async () => {
+    test("long form", async () => {
         expect(testFunc("#123456")).toEqual(true);
     });
 
-    test("longhand with alpha", async () => {
+    test("long form with alpha", async () => {
         expect(testFunc("#12345678")).toEqual(true);
     });
 });
