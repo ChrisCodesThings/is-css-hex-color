@@ -44,6 +44,6 @@ Valid CSS hex colors must:
 The following are examples of valid CSS hex colour codes:
 ```
 #6699ee   // nearly cornflowerblue
-#6699ee88 // ... with 50% transparency
+#6699ee88 // ... with 53% transparency
 #69e8     // ... in shorthand
 ```
