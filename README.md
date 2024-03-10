@@ -29,7 +29,7 @@ isCSSHexColor(str);
 
 ### Return Value
 
-Returns boolean true if str is a valid CSS hex color code, false otherwise.
+Returns boolean true if *str* is a valid CSS hex color code, false otherwise.
 
 ## Description
 
@@ -43,7 +43,7 @@ Valid CSS hex colors must:
 
 The following are examples of valid CSS hex colour codes:
 ```
-#6699ff   // Cornflower blue
-#6699ff88 // ... with 50% transparency
-#69f8     // ... in shorthand
+#6699ee   // nearly cornflowerblue
+#6699ee88 // ... with 50% transparency
+#69e8     // ... in shorthand
 ```
