@@ -20,16 +20,16 @@ console.log(isCSSHexColor("#123abcff"));
 ## Syntax
 
 ```js
-isCSSHexColor(str);
+isCSSHexColor(color);
 ```
 
 ### Parameters
 
-- *str*: text string to test
+- *color*: text string to test
 
 ### Return Value
 
-Returns boolean true if *str* is a valid CSS hex color code, false otherwise.
+Returns boolean `true` if *str* is a valid CSS hex color code, `false` otherwise.
 
 ## Description
 
